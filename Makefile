@@ -1,6 +1,7 @@
 .PHONY: clean build
 
 clean:
+	@rm -f trueselfe
 	@rm -f data.db
 	@rm -f .initialized
 
