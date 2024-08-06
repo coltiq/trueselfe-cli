@@ -14,3 +14,7 @@ var versionCmd = &cobra.Command{
 		fmt.Println("True Selfe CLI v0.1 -- HEAD")
 	},
 }
+
+func init() {
+	rootCmd.AddCommand(versionCmd)
+}
